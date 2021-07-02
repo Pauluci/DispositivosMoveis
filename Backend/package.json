@@ -1,0 +1,17 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "description": "Teste de projeto node",
+  "main": "index.js",
+  "repository": "git@github.com:Pauluci/DispositivosM.git",
+  "author": "Pedro Pauluci",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "5.12.1",
+    "nodemon": "^2.0.7"
+  }
+}
